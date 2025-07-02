@@ -1,0 +1,65 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background: #202020;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .logo {
+  font-size: 24px;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+.forum-list {
+  max-width: 800px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+.messages .message {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+.form input, .form textarea {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1em;
+}
+.form button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #0077cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.form button:hover {
+  background: #005fa3;
+}
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background: #202020;
+  color: white;
+}
