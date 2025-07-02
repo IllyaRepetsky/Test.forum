@@ -1,65 +1,52 @@
 
 body {
-  font-family: Arial, sans-serif;
-  background: #f4f4f4;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f1f1;
+    margin: 0;
+    padding: 0;
 }
-.header {
-  background: #202020;
-  color: white;
-  padding: 15px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+header {
+    background: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
-.header .logo {
-  font-size: 24px;
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
 }
-.nav ul {
-  list-style: none;
-  display: flex;
-  gap: 15px;
-  margin: 0;
-  padding: 0;
+
+main {
+    padding: 20px;
 }
-.nav a {
-  color: white;
-  text-decoration: none;
+
+.forum-category {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
-.forum-list {
-  max-width: 800px;
-  margin: 20px auto;
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
+
+.thread {
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
 }
-.messages .message {
-  padding: 10px;
-  border-bottom: 1px solid #eee;
+
+.thread:first-of-type {
+    border-top: none;
 }
-.form input, .form textarea {
-  display: block;
-  width: 100%;
-  margin-top: 10px;
-  padding: 10px;
-  font-size: 1em;
+
+.tags {
+    font-size: 0.9em;
+    color: #888;
 }
-.form button {
-  margin-top: 10px;
-  padding: 10px 15px;
-  background: #0077cc;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-.form button:hover {
-  background: #005fa3;
-}
-.footer {
-  text-align: center;
-  margin-top: 20px;
-  padding: 10px;
-  background: #202020;
-  color: white;
+
+footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }

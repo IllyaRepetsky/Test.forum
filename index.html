@@ -2,38 +2,38 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ModerKvind</title>
-  <link rel="stylesheet" href="assets/style.css" />
-  <script defer src="assets/main.js"></script>
+    <meta charset="UTF-8">
+    <title>Форум Подільського Краю</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="header">
-    <div class="logo">ModerKvind</div>
-    <nav class="nav">
-      <ul>
-        <li><a href="#">Головна</a></li>
-        <li><a href="#">Увійти</a></li>
-        <li><a href="#">Реєстрація</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <h1>Форум Подільського Краю</h1>
+        <nav>
+            <a href="#">Головна</a>
+            <a href="#">Категорії</a>
+            <a href="#">Увійти</a>
+        </nav>
+    </header>
 
-  <main class="forum-list">
-    <div class="forum-topic">
-      <h2>Тема форуму</h2>
-      <div class="messages" id="messages"></div>
-      <div class="form">
-        <input type="text" id="username" placeholder="Ваше ім'я" />
-        <textarea id="message" placeholder="Повідомлення"></textarea>
-        <button onclick="postMessage()">Надіслати</button>
-      </div>
-    </div>
-  </main>
+    <main>
+        <section class="forum-category">
+            <h2>Загальні обговорення</h2>
+            <div class="thread">
+                <h3><a href="#">[Головна тема] Вітання новим користувачам</a></h3>
+                <p>Останнє повідомлення: <strong>Адмін</strong> — 01.07.2025</p>
+                <span class="tags">#вітання #новачки</span>
+            </div>
+            <div class="thread">
+                <h3><a href="#">[FAQ] Часті запитання</a></h3>
+                <p>Останнє повідомлення: <strong>Модератор</strong> — 30.06.2025</p>
+                <span class="tags">#допомога #faq</span>
+            </div>
+        </section>
+    </main>
 
-  <footer class="footer">
-    <p>&copy; 2025 ModerKvind Forum</p>
-  </footer>
+    <footer>
+        <p>© 2025 Форум Подільського Краю</p>
+    </footer>
 </body>
 </html>
