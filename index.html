@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ModerKvind</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <script defer src="assets/main.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">ModerKvind</div>
+    <nav class="nav">
+      <ul>
+        <li><a href="#">Головна</a></li>
+        <li><a href="#">Увійти</a></li>
+        <li><a href="#">Реєстрація</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="forum-list">
+    <div class="forum-topic">
+      <h2>Тема форуму</h2>
+      <div class="messages" id="messages"></div>
+      <div class="form">
+        <input type="text" id="username" placeholder="Ваше ім'я" />
+        <textarea id="message" placeholder="Повідомлення"></textarea>
+        <button onclick="postMessage()">Надіслати</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 ModerKvind Forum</p>
+  </footer>
+</body>
+</html>
